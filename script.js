@@ -16,9 +16,3 @@ document.addEventListener("DOMContentLoaded", function() {
 document.getElementById('add-product-btn').addEventListener('click', function() {
     window.location.href = 'add_products.html';
 });
-
-
-
-document.getElementById('cancel-btn').addEventListener('click', function() {
-    window.location.href = 'index.html';
-});

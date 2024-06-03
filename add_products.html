@@ -16,6 +16,37 @@
             <button id="cancel-btn" type="submit">Cancel</button>
         </div>
     </header>
-    <script src="script.js"></script>
+
+
+
+    <section>
+
+    <form id="product_form">
+        <label for="sku">SKU</label>
+        <input type="text" id="sku" name="sku"><br><br>
+        
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="price">Price ($) </label>
+        <input type="text" id="price" name="price"><br><br>
+        
+        <br><br>
+        <label for="product_type">Type Switcher</label>
+        <select id="product_type" name="product_type">
+            <option value="type1">Type 1</option>
+            <option value="type2">Type 2</option>
+            <option value="type3">Type 3</option>
+        </select>
+    </form>
+</section>
+    
+
+    <script>    
+     document.getElementById('cancel-btn').addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+    </script>
+    
 </body>
 </html>

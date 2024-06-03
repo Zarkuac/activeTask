@@ -83,3 +83,31 @@ body {
     top: 10px;
     left: 10px;
 }
+
+
+
+/* ADD PRODUCTS FORM */
+
+
+
+#product_form {
+    width: 300px; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the form */
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+label {
+    display: inline-block;
+    width: 30%; /* Adjust label width as needed */
+    text-align: right;
+    margin-right: 5px;
+}
+
+input[type="text"],
+select {
+    width: 65%; /* Adjust input width as needed */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensures the padding is included in the width */
+}
